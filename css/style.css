@@ -13,7 +13,7 @@ body{
 }
 .top{
     display: none;
-    background: #FEB47B;
+    background: #92FE9D;
     color: #fff;
     padding: 5px 10px;
     font-size: 22px;
@@ -27,7 +27,7 @@ body{
     transition: 2s;
 }
 .top:hover{
-    background: #FF7E5F;
+    background: #00C9A7;
 }
 h1{
 	font-weight: 100;
@@ -80,7 +80,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	top: 0;
 	left: 0;
     z-index: 9999;
-	background: linear-gradient(50deg, #FF7E5F, #FEB47B);
+	background: linear-gradient(50deg, #00C9A7, #92FE9D);
 }
 .overlay .overlay-close {
     width: 50px;
@@ -183,7 +183,7 @@ HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .header{
 	height: 100vh;
-	background: linear-gradient(50deg, #FF7E5F, #FEB47B );
+	background: linear-gradient(50deg, #00C9A7, #92FE9D );
     padding: 45px 0px;
 }
 #logo {
@@ -209,7 +209,7 @@ a#logo:hover{
 }
 .fixed {
     position: fixed;
-    background: #FF7E5F;
+    background: #00C9A7;
     top: 0;
     z-index: 99;
     transition: 1s;
@@ -244,7 +244,7 @@ a#logo:hover{
 .navbar-white {
       background-color: #fff !important;
       transition: background 0.5s ease-out;
-      box-shadow: 0px 0px 10px #FF7E5F;
+      box-shadow: 0px 0px 10px #00C9A7;
 }
 .starting img{
 	margin-top: 110px;
@@ -352,7 +352,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     height:auto;
 }
 #bigfeatures i {
-    color:#FF7E5F;
+    color:#00C9A7;
 }
 @media (max-width:1200px) and (min-width:767px) {
     #bigfeatures i {
@@ -578,8 +578,8 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 .gallery-nav:hover,.gallery-nav:focus,.gallery-nav:active {
     color:#fff;
-    background: #FF7E5F;
-    border-color: #FF7E5F;
+    background: #00C9A7;
+    border-color: #00C9A7;
 }
 .customNavigation{
     top: 40%;
@@ -673,7 +673,7 @@ ul.social-icon li a {
 HH 				Testimonial
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #testimonial{
-	background: linear-gradient(50deg, #FF7E5F, #FEB47B);
+	background: linear-gradient(50deg, #00C9A7, #92FE9D);
     color: white;
     padding: 100px 0px;
     /*position: relative;*/
@@ -684,44 +684,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #testimonial hr{
     border-color: white;
 }
-/*.item .test-img{
-    width: 100px;
-}*/
-.owl-theme .owl-controls .owl-page span {
-    border: 1px solid white;
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    border: 1px;
-    padding: 0px;
-    margin: 0px;
-    background-color: #eee;
-}
-.owl-theme .owl-controls .owl-page{
-    border-radius: 100%;
-    border: 2px solid #fff;
-    margin: 10px;
-   /* position: absolute;
-    top: -25px;*/
-}
-.owl-theme .owl-controls .owl-page span:hover{
-    background-color: transparent;
-}
-.owl-theme .owl-controls .active span{
-    background-color: transparent;
-}
-.owl-theme .owl-controls .owl-page:nth-child(1) {
-    background: url(../img/t1.jpg) center ;
-    background-size: 100px 100px;
-}
-.owl-theme .owl-controls .owl-page:nth-child(2) {
-    background: url(../img/t2.jpg) center;
-    background-size: 100px 100px;
-}
-.owl-theme .owl-controls .owl-page:nth-child(3) {
-    background: url(../img/t3.jpg) center;
-    background-size: 100px 100px;
-}
+
 
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH              Pricing table
@@ -847,13 +810,13 @@ ul.pricing-table a.buy:hover .ion-ios-cart-outline:before {
     content: "\f3d6";
 }
 .bg-color-grad {
-    background:#FF7E5F;
-    background:-moz-linear-gradient(top,#FF7E5F 0%,#FEB47B 100%);
-    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#FF7E5F),color-stop(100%,#FEB47B));
-    background:-webkit-linear-gradient(top,#FF7E5F 0%,#FEB47B 100%);
-    background:-o-linear-gradient(top,#FF7E5F 0%,#FEB47B 100%);
-    background:-ms-linear-gradient(top,#FF7E5F 0%,#FEB47B 100%);
-    background:linear-gradient(to bottom,#FF7E5F 0%,#FEB47B 100%);
+    background:#00C9A7;
+    background:-moz-linear-gradient(top,#00C9A7 0%,#92FE9D 100%);
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#00C9A7),color-stop(100%,#92FE9D));
+    background:-webkit-linear-gradient(top,#00C9A7 0%,#92FE9D 100%);
+    background:-o-linear-gradient(top,#00C9A7 0%,#92FE9D 100%);
+    background:-ms-linear-gradient(top,#00C9A7 0%,#92FE9D 100%);
+    background:linear-gradient(to bottom,#00C9A7 0%,#92FE9D 100%);
     filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeff',endColorstr='#00e0a4',GradientType=0 );
 }
 
@@ -880,7 +843,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     float: left;
 }
 .contact-item:hover i{
-    background-color: #FF7E5F;
+    background-color: #00C9A7;
     transition: .8s;
     border: 2px solid #e7e7e7 !important;
     /*background: linear-gradient(90deg, rgb(81, 255, 182), rgb(87, 160, 255));*/
@@ -901,22 +864,22 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     height: 50px;
     border-radius: 0px;
     color: white;
-    background-color: #FF7E5F;
+    background-color: #00C9A7;
     padding: 15px 10px;
     margin: 10px 30px;
-    border-color: #FF7E5F;
+    border-color: #00C9A7;
     margin-bottom: 45px;
     text-transform: uppercase;
     font-weight: 700;
 }
 .btn-sub:hover{
-    background-color: #FEB47B;
-    border-color: #FEB47B;
+    background-color: #92FE9D;
+    border-color: #92FE9D;
     color: white;
     transition: .8s;
 }
 input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focus{
-    border-color: #FEB47B;
+    border-color: #92FE9D;
     box-shadow: none;
 }
 input.form-control, .message {
@@ -928,7 +891,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #footer {
     /*background: linear-gradient(180deg, rgb(0, 190, 111), rgb(87, 160, 255));*/
-    background-color: #FF7E5F;
+    background-color: #00C9A7;
     color:white;
     padding:40px 0;
 }
@@ -972,23 +935,27 @@ ul.social-icons li a {
 }
 .facebook a:hover i {
     color:#fff;
-    background-color:#3B5998;
+    background-color:#1877F2;
+}
+.telegram a:hover i {
+    color:#fff;
+    background-color:#0088cc;
 }
 .twitter a:hover i {
     color:#fff;
-    background-color: #2A80BA;
+    background-color: #1DA1F2;
 }
-.linkedin a:hover i {
+.whatsapp a:hover i {
     color:#fff;
-    background-color:#007bb6;
+    background-color:#25D366;
 }
-.googleplus a:hover i {
+.instagram a:hover i {
     color:#fff;
-    background-color:#dd4b39;
+    background-color:#E1306C;
 }
-.github a:hover i {
+.tiktok a:hover i {
     color:#fff;
-    background-color: #444;
+    background-color: #000000;
 }
 .back-to-top {
     cursor: pointer;
